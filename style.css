@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+nav{
+    font-family: 'Lato', sans-serif;
+}
+
+nav , ul{
+    display: flex ;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0.5rem;
+    background-color: black;
+    color: aliceblue;
+}
+
+.brand img{
+     width: 4.5rem;
+     padding: 0 8px;
+
+}   
+
+nav ul li{
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.contener{
+    min-height: 75vh;
+    background-color: black;
+    color: antiquewhite;    
+    display: flex;
+    margin: 25px auto;
+    width: 75%;
+    padding: 34px;
+    border-radius: 12px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.bottom{
+    height: 100px;
+    background-color: black;
+    color: white  ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icon{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.icon i{
+    cursor: pointer;
+}
+
+#myrangebar{
+    width: 75vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItem{
+     height: 50px;
+     display: flex;
+     background-color: blanchedalmond;
+     width: 150%;
+     color: black;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 35px;
+     margin: 12px 0;
+    
+}
+
+.allsongitems{
+    margin-top: 55px;
+    
+}
+
+.songItem img{
+    width: 50px;
+    border-radius: 20px;
+    margin: 0 8px;
+    
+}
+
+.timerstamp{
+    margin: 0 20px;
+    cursor: pointer;
+    
+}
+
+
+
